@@ -1,0 +1,23 @@
+  <label>Wie viele Meilen sollen es sein?</label>
+  <input type="number" placeholder="" id="input"><br>
+  <label>Sind die Straßen gut?</label>
+  <input type="checkbox" id="streets"><br>
+  <label>wird ein Berg überquert?</label>
+  <input type="checkbox" id="mountains"><br>
+  <label>Ist der Reisende geübt?</label>
+  <input type="checkbox" id="practised"><br>
+  <label>Geht es quer feldein?</label>
+  <input type="checkbox" id="wilderness"><br>
+  <label>Viel Gepäck?</label>
+  <input type="checkbox" id="weight"><br>
+  <label>Womit ist der Reisende unterwegs?</label><br>
+  <select id="method">
+    <option value="pferd">Zu Pferd</option>
+    <option value="fuss">Zu Fuß</option>
+    <option value="konvoi">Im Konvoi</option>
+    <option value="flussauf">Fluss aufwärts</option>
+    <option value="flussab">Fluss abwärts</option>
+  </select>
+  <br><br>
+  <input type="submit" onclick="travelConverter()">
+  <label>Ergebnis</label> <span id="result" class="calculator_result" placeholder="0"></span> Tage<br>
